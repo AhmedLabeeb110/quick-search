@@ -46,4 +46,6 @@
 input {
   border: 2px solid rgb(64, 46, 168);
   border-radius: 4px;
+  font-size: 30px;
+  padding: 10px;
 }
