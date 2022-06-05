@@ -40,4 +40,7 @@ const renderData = (matches) => {
 }
 
 
-searchInput.addEventListener("input", () => searchData(searchInput.value));
+search.addEventListener("click", (e) => {
+  e.preventDefault()
+  searchData(searchInput.value)
+});
