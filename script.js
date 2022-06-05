@@ -36,6 +36,8 @@ const renderData = (matches) => {
       </div>
     `).join(''); //This join method converts the data into string
     showItems.innerHTML = data
+  } else {
+    alert("No data found!")
   }
 }
 
